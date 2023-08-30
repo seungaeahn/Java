@@ -12,7 +12,7 @@ public class SwitchCoffee {
 		boolean isChoice = false;
 		
 		while (!isChoice) { //조건이 참인 동안 코드블록을 반복적으로 실행 
-			System.out.println("커피 주문해주세요. 1. 아메이카노 2. 카페라떼 3. 홍차");
+			System.out.println("커피 주문해주세요. 1. 아메리카노 2. 카페라떼 3. 홍차");
 			
 			choice = scanner.nextInt();
 			
