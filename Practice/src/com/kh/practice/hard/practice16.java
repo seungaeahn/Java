@@ -25,10 +25,9 @@ public class practice16 {
 
 		} else {
 			for(int i = 2; i <= num/2; i++) {
-				if(num % i == 0)  //¼Ò¼ö°¡ ¾Æ´Ô
-					isPrime = false;
+				if(num % i == 0);  //¼Ò¼ö°¡ ¾Æ´Ô
 					
-			}	
+			} isPrime = false;	
 				}
 			
 		 
