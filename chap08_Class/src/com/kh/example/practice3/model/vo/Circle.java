@@ -15,6 +15,22 @@ public class Circle {
 		radius++;
 		System.out.println(radius);
 	}
+	public double getPI() {
+		return PI;
+	}
+
+	public void setPI(double pI) {
+		PI = pI;
+	}
+
+	public int getRadius() {
+		return radius;
+	}
+
+	public void setRadius(int radius) {
+		this.radius = radius;
+	}
+
 	public void getAreaOfCircle() {
 		double area = (radius * radius) * PI; 
 		System.out.println("¸éÀû: " + area);

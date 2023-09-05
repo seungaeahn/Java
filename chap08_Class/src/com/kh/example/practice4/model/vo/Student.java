@@ -9,7 +9,7 @@ public class Student {
 	char gender;
 	
 	//2. 생성자 this를 활용
-	public Student(int grade, int classroom, String name, double height, char gender) {
+	public Student() {
 		this.grade = 1;
 		this.classroom = 2;
 		this.name = "박성철";

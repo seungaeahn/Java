@@ -7,7 +7,7 @@ public class Run {
 	public static void main(String[] args) {
 			
 			// 기본 생성자를 통해 Student 객체 생성
-			Student student = new Student(0, 0, null, 0, 0);
+			Student student = new Student();
 			
 			
 			// 학생 정보 출력

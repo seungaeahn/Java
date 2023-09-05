@@ -1,6 +1,5 @@
 package com.kh.example.practice3.model.vo;
 
-import com.kh.classSample.Student;
 
 public class CircleMain {
 
