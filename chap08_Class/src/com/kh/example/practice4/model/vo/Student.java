@@ -10,11 +10,11 @@ public class Student {
 	
 	//2. 생성자 this를 활용
 	public Student(int grade, int classroom, String name, double height, char gender) {
-		this.grade = grade;
-		this.classroom = classroom;
-		this.name = name;
-		this.height = height; 
-		this.gender = gender;
+		this.grade = 1;
+		this.classroom = 2;
+		this.name = "박성철";
+		this.height = 180.5; 
+		this.gender = '남';
 	}
 	//3. 정보출력 메서드 만들기
 	public void information() {
