@@ -17,7 +17,7 @@ package com.kh.thisSample;
 	 this() 현재 클래스의 다른 생성자를 호출하는데 사용 
 	 */
 	class MyClass {
-		int myFeild;
+		int myField;
 		
 		//첫 번째 생성자
 		MyClass() {
@@ -26,10 +26,10 @@ package com.kh.thisSample;
 		}
 		//두 번째 생성자
 		MyClass(int value) {
-			this.myFeild = value;
+			this.myField = value;
 		}
 		void printValue() {
-			System.out.println("myFeild의 값: " + this.myFeild);
+			System.out.println("myFeild의 값: " + this.myField);
 		}
 	}
 
