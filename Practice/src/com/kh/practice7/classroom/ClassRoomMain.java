@@ -47,7 +47,7 @@ public class ClassRoomMain {
 		//출력
 		//classRoom1
 		System.out.println("== 1분단 ==");
-		//classRoom2
+		//classRoom2 
 		System.out.println("== 2분단 ==");
 		
 	}
