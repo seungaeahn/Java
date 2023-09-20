@@ -49,8 +49,9 @@ public class BinaryTree {
 	private void inOrderTR(TreeNode root) {
 		if (root != null) {
 			inOrderTR(root.left);
-			System.out.println(root.data + " ");
+			System.out.println("root.left: " + root.data);
 			inOrderTR(root.right);
+			System.out.println("root.right: " + root.data);
 		}
 	}
 	public static void main(String[] args) {
