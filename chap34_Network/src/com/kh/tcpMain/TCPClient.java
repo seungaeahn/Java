@@ -12,7 +12,7 @@ public class TCPClient {
 		
 			//서버 주소와 포트번호로 소켓 생성
 			//서버 주소와 포트번호는 내가 연결하고자 하는 포트와 동일해야 함 
-			Socket socket = new Socket("localhost", 8080);
+			Socket socket = new Socket("localhost", 4848);
 			System.out.println("[ Server Connect ]");
 			
 			//보낼 때 코드
